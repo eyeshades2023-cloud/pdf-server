@@ -1,0 +1,24 @@
+1.1) Simple Car Class
+class Car:
+    name = ""
+    color = ""
+
+C1 = Car()
+C1.name = "Mercedes"
+C1.color = "Obsidian Black"
+
+C2 = Car()
+C2.name = "Lamborghini"
+C2.color = "Pearl White"
+
+C3 = Car()
+C3.name = "Porsche"
+C3.color = "Midnight Blue"
+
+print("------------Car--------------")
+print("Your car name", C1.name, "has color", C1.color)
+print("----------------------------------------")
+print("Your car name", C2.name, "has color", C2.color)
+print("----------------------------------------")
+print("Your car name", C3.name, "has color", C3.color)
+print("----------------------------------------")
